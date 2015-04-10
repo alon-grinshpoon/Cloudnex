@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.cloudnex.ResultsActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:gravity="center" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/imageButtonLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@null"
+                android:padding="0dip"
+                android:src="@drawable/logo_notitle" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Found the following results:" />
+        </TableRow>
+    </TableLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom" >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="365dp"
+            android:layout_gravity="bottom" 
+            android:layout_marginLeft="15dip"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:divider="@android:color/transparent"
+  			android:dividerHeight="10.0sp" >
+        </ListView>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButtonSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="115dip"
+            android:background="@null"
+            android:src="@drawable/button_search" />
+
+        <ImageButton
+            android:id="@+id/imageButtonAPlus"
+            android:layout_width="38dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="115dip"
+            android:layout_marginTop="5dip"
+            android:background="@null"
+            android:src="@drawable/button_aplus" />
+
+    </LinearLayout>
+
+</FrameLayout>

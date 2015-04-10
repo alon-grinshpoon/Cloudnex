@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.cloudnex.SearchActivity"
+    tools:ignore="MergeRootFrame" >
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imageButtonLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginTop="25dip"
+            android:padding="10dip"
+            android:src="@drawable/logo_large" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:lines="1"
+            android:maxLines="1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonFind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="20dip"
+            android:src="@drawable/button_find" />
+        
+        <ImageButton
+            android:id="@+id/imageButtonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginTop="55dip"
+            android:padding="0dip"
+            android:src="@drawable/button_add" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButtonSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginRight="115dip"
+            android:src="@drawable/button_search" />
+
+        <ImageButton
+            android:id="@+id/imageButtonAPlus"
+            android:layout_width="38dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="115dip"
+            android:layout_marginTop="5dip"
+            android:background="@null"
+            android:src="@drawable/button_aplus" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_item"
+    android:layout_marginLeft="25px"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:lines="1"
+            android:maxLines="1"
+            android:maxWidth="100dp"
+            android:scrollHorizontally="true"
+            android:text="MyFile.docx"
+            android:textSize="30px" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5px"
+                android:text="Got 124 A+'s!" />
+
+            <ImageView
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/button_small_googledrive" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+ 
+    <ImageButton
+        android:id="@+id/share_type"
+        android:layout_width="65px"
+        android:layout_height="70px"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="20px"
+        android:background="@null"
+        android:layout_marginTop="15px"
+        android:src="@drawable/share_word" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/aplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginTop="15px"
+        android:src="@drawable/a_plus" />
+ 
+</LinearLayout>

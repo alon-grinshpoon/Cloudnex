@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.cloudnex.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imageButtonLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" 
+            android:background="@null"
+            android:layout_marginTop="35dip"
+            android:padding="10dip" />
+
+        <ImageButton
+            android:id="@+id/imageButtonGoogleDrive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_googledrive" 
+            android:background="@null"
+            android:clickable="true"
+        	android:hapticFeedbackEnabled="true"
+        	android:padding="2dip" />
+        
+        <ImageButton
+            android:id="@+id/imageButtonDropbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_dropbox" 
+            android:background="@null"
+            android:clickable="true"
+        	android:hapticFeedbackEnabled="true" 
+        	android:padding="2dip" />
+
+        <ImageButton
+            android:id="@+id/imageButtonOneDrive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_onedrive" 
+            android:background="@null"
+            android:clickable="true"
+        	android:hapticFeedbackEnabled="true"
+        	android:padding="2dip" />
+        
+        <ImageButton
+            android:id="@+id/imageButtonSugerSync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_sugersync" 
+            android:background="@null"
+            android:clickable="true"
+        	android:hapticFeedbackEnabled="true"
+        	android:padding="2dip"  />
+        
+         <ImageButton
+            android:id="@+id/imageButtonBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_box" 
+            android:background="@null"
+            android:clickable="true"
+        	android:hapticFeedbackEnabled="true" 
+        	android:padding="2dip" />
+         
+        <ImageButton
+            android:id="@+id/imageButtonOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_other" 
+            android:background="@null"
+            android:clickable="true"
+        	android:hapticFeedbackEnabled="true" 
+        	android:padding="2dip" />
+        
+        <ImageButton
+            android:id="@+id/imageButtonContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_next" 
+            android:background="@null"
+            android:clickable="true"
+        	android:hapticFeedbackEnabled="true" 
+        	android:padding="10dip" />
+        
+    </LinearLayout>
+
+</FrameLayout>
+
